@@ -12,7 +12,7 @@ Weapon_type = input("Enter Weapon Number: ")
 
 if Weapon_type not in(1,2,3,4):
     print "invalid response. " + str(Weapon_type) + " is not valid"
-    exit
+    quit()
 
 if Weapon_type is 1:
     Weapon_intr = 7
@@ -24,9 +24,11 @@ else:
 
 auto_dismantle = raw_input("Do you want to auto dismantle (n/y)? ")
 
+auto_dismantle = auto_dismantle.lower()
+
 if auto_dismantle not in ('n','y','no','yes'):
     print "invalid response. " + auto_dismantle + " is not valid"
-    exit
+    quit()
 
 Groups_of_intr = input("How many sets of Weapon type " + str(Weapon_type) + " do you want to automate? (press 0 for never ending) ")
 
@@ -39,35 +41,69 @@ print('Press Ctrl-C to quit.')
 print "\nPlease tab into Destiny 2"
 time.sleep(3)
 
+screenWidth, screenHeight = pyautogui.size()
+
+if screenWidth == 2560:
+    ratio_sub = 880
+    
+elif screenWidth == 1920:
+    ratio_sub = 1520
+
 try:
     for q in range(0,Groups_of_intr):
         time.sleep(3)
         if Weapon_type != 4:
-            pyautogui.moveTo(2850, 157)
+            x=2850
+            if screenWidth == 2560:
+                x=x-ratio_sub
+            pyautogui.moveTo(x, 157)
+
         elif Weapon_type is 4:
-            pyautogui.moveTo(2953,164) #Jack Queen King
+            x=2953
+            if screenWidth == 2560:
+                x = x-ratio_sub
+                
+            pyautogui.moveTo(x,164) #Jack Queen King
         time.sleep(.5)
         pyautogui.click()
         for i in range(0, Weapon_intr):
             time.sleep(1)
             if Weapon_type is 1:
-                pyautogui.moveTo(2448,329) #Perfect Paradox
+                x = 2448
+                if screenWidth == 2560:
+                    x = x-ratio_sub
+                pyautogui.moveTo(x,329) #Perfect Paradox
             elif Weapon_type is 2:
-                pyautogui.moveTo(2574,330) #Trophy Hunter
+                x = 2574
+                if screenWidth == 2560:
+                    x = x-ratio_sub
+                pyautogui.moveTo(x,330) #Trophy Hunter
             elif Weapon_type is 3:
-                pyautogui.moveTo(2865,818) #Bygones
+                x = 2865
+                if screenWidth == 2560:
+                    x = x-ratio_sub
+                pyautogui.moveTo(x,818) #Bygones
             elif Weapon_type is 4:
-                pyautogui.moveTo(2724,587) #Jack Queen King
+                x = 2724
+                if screenWidth == 2560:
+                    x = x-ratio_sub
+                pyautogui.moveTo(x,587) #Jack Queen King
             pyautogui.mouseDown()
             time.sleep(1.501)
             pyautogui.mouseUp()
-        pyautogui.moveTo(2748, 157)
+        x=2748
+        if screenWidth == 2560:
+            x = x-ratio_sub
+        pyautogui.moveTo(x, 157)
         time.sleep(.5)
         pyautogui.click()
         for j in range(0,4):
             #donating frac
             time.sleep(.5)
-            pyautogui.moveTo(2457,328)
+            x = 2457
+            if screenWidth == 2560:
+                x = x-ratio_sub
+            pyautogui.moveTo(x,328)
             time.sleep(.5)
             pyautogui.mouseDown()
             time.sleep(3.1)
@@ -78,7 +114,10 @@ try:
         pyautogui.keyUp('p')
         for a in range(0,Weapon_intr):
             time.sleep(.3)
-            pyautogui.moveTo(2296, 334)
+            x = 2296
+            if screenWidth == 2560:
+                x -= ratio_sub/2
+            pyautogui.moveTo(x, 334)
             time.sleep(.5)
             pyautogui.click()
         if auto_dismantle in ('y','yes'):
@@ -88,13 +127,25 @@ try:
             time.sleep(1)
             time.sleep(.5)
             if Slot is 2:
-                pyautogui.moveTo(1151, 695) #energy
+                x = 1151
+                if screenWidth == 2560:
+                    x -= ratio_sub/2
+                pyautogui.moveTo(x, 695) #energy
                 time.sleep(1)
-                pyautogui.moveTo(981, 680)
+                x=981
+                if screenWidth == 2560:
+                    x -= ratio_sub/2
+                pyautogui.moveTo(x, 680)
             elif Slot is 1:
-                pyautogui.moveTo(1140, 514) #kinetic
+                x = 1140
+                if screenWidth == 2560:
+                    x -= ratio_sub/2
+                pyautogui.moveTo(x, 514) #kinetic
                 time.sleep(1)
-                pyautogui.moveTo(1003, 522)
+                x = 1003
+                if screenWidth == 2560:
+                    x -= ratio_sub/2
+                pyautogui.moveTo(x, 522)
             for a in range(0,Weapon_intr):
                 time.sleep(.5)
                 lockLocation = pyautogui.locateOnScreen('Legendary_lock.png', confidence=0.9)
@@ -115,7 +166,6 @@ try:
         time.sleep(1)
         pyautogui.keyUp('esc')
             
-
         
         
     
