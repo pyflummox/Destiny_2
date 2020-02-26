@@ -3,7 +3,7 @@ Python v2.7.16
 
 Author: pyFlummox
 
-version: 1.2.4.1.5
+version: 1.2.5.5
 
 added support for user to pick key settings and auto donate. 
 
@@ -11,7 +11,7 @@ Description: This program was created for one purpose, to automate the donating 
 
 Modules used: pyautogui, time, sys, cv2, os.path, os
 
-Compiled exe link: https://drive.google.com/file/d/1XKNAeUMkAaPbo9nFoFTqkGP8-VrEmFvu/view?usp=sharing
+Compiled exe link: https://drive.google.com/file/d/1dfj_zXNKA1Cf8Lrn_AV96vRiVWoLzPlY/view?usp=sharing
 
 Functionality of script:
 The script has a few options in it. This script is able to pull any frame to farm for rolls or auto dismantle for shards. There is also an option for you to donate a certain number of fractaline to the obelisk. 
