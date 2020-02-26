@@ -2,8 +2,9 @@
 Python v2.7.16
 
 Author: pyFlummox
-version: 1.0.2.1.2 - does not currently support all possible frames.
+version: 1.1.2.1.3
 added 16x9 1080p support
+added all weapon frames and some debugging logic
 
 Description: This program was created for one purpose, to automate the donating and frame dismatling process of the Empyrean Foundation in Destiny 2. It uses mostly pyautogui commands with positions where mouse events happen. It gives ample delay in game so clicks are registered in-game.
 
