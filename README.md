@@ -22,4 +22,4 @@ tab needs to be inventory
 'f' for dismantle
 
 
-The user input
+To run the exe you can run it through a shell or double click on it in Windows.  
