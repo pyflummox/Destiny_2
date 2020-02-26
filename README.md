@@ -21,10 +21,6 @@ Resolution originally developed in 3440x1440 21:9 with pyautogui. I added suppor
 
 The below keybinds need to be mapped in Destiny 2
 
-'p' needs to be Quest
-
-tab needs to be inventory
-
 'f' for dismantle
 
 To run the exe you can run it through a shell or double click on it in Windows.  
