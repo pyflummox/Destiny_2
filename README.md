@@ -2,7 +2,9 @@
 Python v2.7.16
 
 Author: pyFlummox
+
 version: 1.2.4.1.5
+
 added support for user to pick key settings and auto donate. 
 
 Description: This program was created for one purpose, to automate the donating and frame dismatling process of the Empyrean Foundation in Destiny 2. It uses mostly pyautogui commands with positions where mouse events happen. It gives ample delay in game so clicks are registered in-game.
@@ -18,9 +20,11 @@ The script has a few options in it. When you first launch the program you must b
 Resolution originally developed in 3440x1440 21:9 with pyautogui. I added support for 2560x1440 16:9 and 1920x1080 16:9.
 
 The below keybinds need to be mapped in Destiny 2
-'p' needs to be Quest
-tab needs to be inventory
-'f' for dismantle
 
+'p' needs to be Quest
+
+tab needs to be inventory
+
+'f' for dismantle
 
 To run the exe you can run it through a shell or double click on it in Windows.  
