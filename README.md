@@ -11,7 +11,7 @@ Description: This program was created for one purpose, to automate the donating 
 
 Modules used: pyautogui, time, sys, cv2, os.path, os
 
-Compiled exe link: https://drive.google.com/file/d/1rf1PlkaF6z3T9rQtTPOCh_JjWdj0onAs/view?usp=sharing
+Compiled exe link: https://drive.google.com/file/d/1ebb_uJ-D6K3w5WJEYaydfAKzeWqmtZai/view?usp=sharing
 
 Functionality of script:
 The script has a few options in it. This script is able to pull any frame to farm for rolls or auto dismantle for shards. There is also an option for you to donate a certain number of fractaline to the obelisk. 
