@@ -3,15 +3,15 @@ Python v2.7.16
 
 Author: pyFlummox
 
-version: 1.2.5.5
+version: 1.2.6.5
 
-added support for user to pick key settings and auto donate. 
+Added a feature to repeat the options in the last run of the program. 
 
 Description: This program was created for one purpose, to automate the donating and frame dismatling process of the Empyrean Foundation in Destiny 2. It uses mostly pyautogui commands with positions where mouse events happen. It gives ample delay in game so clicks are registered in-game.
 
 Modules used: pyautogui, time, sys, cv2, os.path, os
 
-Compiled exe link: https://drive.google.com/file/d/1dfj_zXNKA1Cf8Lrn_AV96vRiVWoLzPlY/view?usp=sharing
+Compiled exe link: https://drive.google.com/file/d/1rf1PlkaF6z3T9rQtTPOCh_JjWdj0onAs/view?usp=sharing
 
 Functionality of script:
 The script has a few options in it. This script is able to pull any frame to farm for rolls or auto dismantle for shards. There is also an option for you to donate a certain number of fractaline to the obelisk. 
