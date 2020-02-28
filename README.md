@@ -3,7 +3,7 @@ Python v2.7.16
 
 Author: pyFlummox
 
-version: 1.2.6.5
+version: 1.2.6.7
 
 Added a feature to repeat the options in the last run of the program. 
 
@@ -11,7 +11,7 @@ Description: This program was created for one purpose, to automate the donating 
 
 Modules used: pyautogui, time, sys, cv2, os.path, os
 
-Compiled exe link: https://drive.google.com/file/d/1_cYrbzxjSSAcK6E3csVwnDU54HCXD2R-/view?usp=sharing
+Compiled exe link: https://drive.google.com/file/d/1ejJtq8IgvhIPe52OxwDoWNdxItANCZec/view?usp=sharing
 
 Functionality of script:
 The script has a few options in it. This script is able to pull any frame to farm for rolls or auto dismantle for shards. There is also an option for you to donate a certain number of fractaline to the obelisk. 
@@ -49,6 +49,7 @@ The script has a few options in it. This script is able to pull any frame to far
 
 Notes:
 if you are choosing not to use the auto dismantle feature I would suggest only looping the program (see **Running the program (5)**) 4-5 times as it will fill your post master x times(x=4 or x=7. perfect paradox allows you get to 6-7 frames instead of 4.)
+**Legendary_lock.png is required to be placed in the same directory as the .exe** this is just a picture of the legendary lock and the program is use the to see if weapons are locked then unlock them. 
 
 You need the Legendary_lock.png file in the same directory as the .exe file. 
 
