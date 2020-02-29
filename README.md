@@ -63,3 +63,6 @@ The below keybinds need to be mapped in Destiny 2
 'f' for dismantle
 
 To run the exe you can run it through a shell or double click on it in Windows.  
+
+Future Features:
+I have created a small update to use Twilio to send a text message when the program is complete. I have chosen not to put this source code out as this isn't a standard and is hardcoded. Also, each phone number needs to be registered in Twilio before it will send messages. If you are interested in this feature. please contact me via github or **discord: pyFlummox#6248**
