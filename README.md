@@ -3,9 +3,9 @@ Python v2.7.16
 
 Author: pyFlummox
 
-version: 1.2.6.7
+version: 1.3.6.7
 
-Added a feature to repeat the options in the last run of the program. 
+*I have decided to release the source code as there seems to be fewer bugs than when I originally developed this program. If There are any suggestion please feel free to message me and contribute. This is not the prettiest code and it really needs to be put into a class struture. Since this event is only lasting for another week and a half I have chosen not to create a GUI or restruture the script.*
 
 Description: This program was created for one purpose, to automate the donating and frame dismatling process of the Empyrean Foundation in Destiny 2. It uses mostly pyautogui commands with positions where mouse events happen. It gives ample delay in game so clicks are registered in-game.
 
@@ -49,7 +49,9 @@ The script has a few options in it. This script is able to pull any frame to far
 
 Notes:
 if you are choosing not to use the auto dismantle feature I would suggest only looping the program (see **Running the program (5)**) 4-5 times as it will fill your post master x times(x=4 or x=7. perfect paradox allows you get to 6-7 frames instead of 4.)
-**Legendary_lock.png is required to be placed in the same directory as the .exe** this is just a picture of the legendary lock and the program is use the to see if weapons are locked then unlock them. 
+**Legendary_lock.png* is required to be placed in the same directory as the .exe** this is just a picture of the legendary lock and the program is use the to see if weapons are locked then unlock them. 
+
+* **If you have a 1080p monitor please download the Legendary_lock_1080.png and rename it to Lgendary_lock.png** 1080p has a different pixel density then 1440p which is what the original program was built on. 
 
 You need the Legendary_lock.png file in the same directory as the .exe file. 
 
